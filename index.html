@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/tomate.png" type="image/png">
   </head>
   <body>
     <div class="container-principal">
       <div class="pomodoro">
         <div class="container">
-          <span id="minutos">25</span>
+          <span id="minutos" class="num-text">25</span>
           <span>:</span>
-          <span id="secundos">00</span>
+          <span id="secundos" class="num-text">00</span>
         </div>
       </div>
       <div class="botoes-controle">
-        <button id="foco">25(work)</button>
-        <button id="curto">5(curto)</button>
-        <button id="longo">15(longo)</button>
-        <button id="pause" style="display: none">Pause</button>
-        <button id="stop" style="display: none">Stop</button>
+        <button id="foco" class="btn">25(work)</button>
+        <button id="curto" class="btn">5(curto)</button>
+        <button id="longo" class="btn">15(longo)</button>
+        <button id="pause" class="btn" style="display: none">Pause</button>
+        <button id="stop" class="btn" style="display: none">Stop</button>
       </div>
     </div>
-
+    <footer><span> <a href="https://github.com/andreikestrel">Andrei Kestrel</a> © 2023 </span></footer>
     <script src="pomo.js"></script>
   </body>
 </html>
