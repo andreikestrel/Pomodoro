@@ -1,0 +1,40 @@
+body{
+    background-color: dimgray;
+}
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .pomodoro {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .container span {
+    margin: 0 10px;
+    font-size: 120px;
+    font-weight: 400;
+  }
+  
+  #ponto {
+    font-size: 120px;
+    margin: 0;
+  }
+  
+  #pause,
+  #stop {
+    display: none;
+  }  
