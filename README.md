@@ -47,7 +47,6 @@ cd pomodoro-timer
 
 5. Use os botões de pausa e reinício conforme necessário.
 
-Certamente, você pode adicionar a informação de que o projeto foi hospedado no Vercel na documentação da seguinte maneira:
 
 ## Implantação
 
